@@ -1,6 +1,6 @@
 {
   "name": "darian-system",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "Martian time converter",
   "main": "./lib/darian_system.js",
   "scripts": {
@@ -13,7 +13,9 @@
   "keywords": [
     "darian",
     "martian",
-    "converter"
+    "converter",
+    "date",
+    "time"
   ],
   "author": "mrfaraday",
   "license": "MIT",
