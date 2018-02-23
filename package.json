@@ -1,6 +1,6 @@
 {
   "name": "darian-system",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Martian time converter",
   "main": "./lib/darian_system.js",
   "scripts": {
