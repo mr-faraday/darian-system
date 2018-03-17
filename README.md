@@ -11,7 +11,7 @@ I'm still working on this module. New methods and opportunities will soon appear
 Clone repository to you *node_modules* folder or:
 
 ```sh
-npm install darian-system --save-dev
+npm install darian-system
 ```
 
 ```javascript
