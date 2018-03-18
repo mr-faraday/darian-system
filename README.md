@@ -4,11 +4,9 @@ This is module for Node.js to convert Earth time to Martian time in Darian syste
 
 The [Darian calendar](https://en.wikipedia.org/wiki/Darian_calendar) is a proposed system of time-keeping on the planet Mars. It was created by aerospace engineer and political scientist Thomas Gangale in 1985. In 2002 he adopted the Telescopic Epoch, which is in 1609 in recognition of [Johannes Kepler](https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion)'s use of [Tycho Brahe](https://en.wikipedia.org/wiki/Tycho_Brahe)'s observations of Mars to elucidate the laws of planetary motion, and also [Galileo Galilei](https://en.wikipedia.org/wiki/Galileo_Galilei)'s first observations of Mars with a telescope.
 
-I'm still working on this module. New methods and opportunities will soon appear and maybe I'll add more events.
-
 ## Usage
 
-Clone repository to you *node_modules* folder or:
+Clone repository to you *node_modules* folder or install using npm:
 
 ```sh
 npm install darian-system
@@ -22,12 +20,12 @@ Class constructor can recive *Date()* object or date as arguments in syntax:
 ```javascript
 new Darian_Date(year[, month[, day[, hour[, min[, sec[, timeZoneModifer]]]]]])
 ```
-```timeZoneModifer``` for UTC+3 — ```3```, UTC-5 — ```-5```
+>> ```timeZoneModifer``` for UTC+3 — ```3```, UTC-5 — ```-5```
 If the constructor receives an empty argument string, it will create an object for the current time.
 
 ```javascript
 var marsTime = new ds.Darian_Date();
-marsTime.getDate();  // Sol Martis, 17 Mesha 217, 17:18:57
+console.log(marsTime.getDate());  // Sol Martis, 17 Mesha 217, 17:18:57
 ```
 
 ### Methods of Darian_Date() object
@@ -86,7 +84,7 @@ Converts Martian Time to Earth Time. Recive Darian_Date() object or Darian_Date(
 
 ```javascript
 var earthTime = ds.convMarsToEarth(marsTime);
-earthTime;  // Wed Feb 07 2018 18:31:26 GMT+0300 (+03)
+console.log(earthTime);  // Wed Feb 07 2018 18:31:26 GMT+0300 (+03)
 ```
 
 ## Based on
