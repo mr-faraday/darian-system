@@ -20,7 +20,7 @@ Class constructor can recive *Date()* object or date as arguments in syntax:
 ```javascript
 new Darian_Date(year[, month[, day[, hour[, min[, sec[, timeZoneModifer]]]]]])
 ```
->> ```timeZoneModifer``` for UTC+3 — ```3```, UTC-5 — ```-5```
+> ```timeZoneModifer``` for UTC+3 — ```3```, UTC-5 — ```-5```
 If the constructor receives an empty argument string, it will create an object for the current time.
 
 ```javascript
