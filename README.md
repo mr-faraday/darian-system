@@ -16,11 +16,11 @@ npm install darian-system
 var ds = require('darian-system');
 ```
 
-Class constructor can recive *Date()* object or date as arguments in syntax:
+Class constructor can receive *Date()* object or date as arguments in syntax:
 ```javascript
-new Darian_Date(year[, month[, day[, hour[, min[, sec[, timeZoneModifer]]]]]])
+new Darian_Date(year[, month[, day[, hour[, min[, sec[, timeZoneModifier]]]]]])
 ```
-> ```timeZoneModifer``` for UTC+3 — ```3```, UTC-5 — ```-5```
+> ```timeZoneModifier``` for UTC+3 — ```3```, UTC-5 — ```-5```
 If the constructor receives an empty argument string, it will create an object for the current time.
 
 ```javascript
@@ -80,7 +80,7 @@ Return events that occurred on this day of the Earth year.
 
 - #### convMarsToEarth()
 
-Converts Martian Time to Earth Time. Recive Darian_Date() object or Darian_Date().getJSON() and returns Date() object of Earth Time.
+Converts Martian Time to Earth Time. Receive Darian_Date() object or Darian_Date().getJSON() and returns Date() object of Earth Time.
 
 ```javascript
 var earthTime = ds.convMarsToEarth(marsTime);
