@@ -1,6 +1,6 @@
-'use strict';
+// on_this_sol_day.js
 
-class Events {
+module.exports = class Events {
   this_sol(doI) {
     var ThisSol;
 
@@ -2086,5 +2086,3 @@ class Events {
     return ThisDay;
   }
 }
-
-module.exports = Events;

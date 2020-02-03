@@ -1,4 +1,4 @@
-'use strict';
+// darian_system.js
 
 const MARS_TO_EARTH_DAYS = 1.027491251;
 const EPOCH_OFFSET = 587744.77817;

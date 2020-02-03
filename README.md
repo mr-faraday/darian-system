@@ -87,6 +87,6 @@ var earthTime = ds.convMarsToEarth(marsTime);
 console.log(earthTime);  // Wed Feb 07 2018 18:31:26 GMT+0300 (+03)
 ```
 
-## Based on
+## Credits
 
-* [Martian Date Calculator](http://ops-alaska.com/time/gangale_converter/calendar_clock.htm) — Online converter developed by Alan Hensel and Thomas Gangale.
+Based on [Martian Date Calculator](http://ops-alaska.com/time/gangale_converter/calendar_clock.htm) — Online converter developed by Alan Hensel and Thomas Gangale.
