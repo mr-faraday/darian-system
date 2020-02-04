@@ -1,8 +1,8 @@
 {
   "name": "darian-system",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Martian time converter",
-  "main": "./src/darian_system.js",
+  "main": "./lib/darian_system.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
