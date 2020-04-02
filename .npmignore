@@ -2,3 +2,7 @@
 
 .gitignore
 .git
+
+# Developing
+test.js
+.vscode

@@ -1,7 +1,11 @@
 # gitignore
 
 node_modules
+test.js
 
 # Only apps should have lockfiles
 yarn.lock
 package-lock.json
+
+# visual studio code
+.vscode

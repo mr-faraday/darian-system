@@ -1,6 +1,6 @@
 {
   "name": "darian-system",
-  "version": "1.1.2",
+  "version": "1.2",
   "description": "Martian time converter",
   "main": "./lib/darian_system.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "https://github.com/MrFaraday/darian-system.git"
   },
   "keywords": [
+    "mars",
     "darian",
     "martian",
     "converter",

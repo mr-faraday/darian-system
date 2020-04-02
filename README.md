@@ -56,7 +56,9 @@ Return date as object like:
     mSolarLongitude: [value],         // Solar Longitude(degrees)
     mHour: [value],                   // Hours
     mMin: [value],                    // Minutes
-    mSec: [value]                     // Seconds
+    mSec: [value],                    // Seconds
+    lsMars: [value],                  // Converted sols to ls
+    lsEarth: [value]                  // Converted days to ls
 }
 ```
 
